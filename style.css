@@ -3,3 +3,176 @@
 Theme Name: Taimeshi
 Description: 鯛めし屋のサイト
 */
+
+/* -------------------------------------------- */
+
+/* ▼全体の設定 */
+
+/* -------------------------------------------- */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: ;
+    font-size: 62.5%;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    vertical-align: bottom;
+}
+
+li {
+    list-style-type: none;
+}
+
+body {
+    font-family: serif;
+    font-size: 1.4rem;
+    background: #000000;
+    background: linear-gradient(#000000, #434343);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+/* -------------------------------------------- */
+
+/* ▼各種設定ID or class */
+
+/* -------------------------------------------- */
+
+.flex {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* -------------------------------------------- */
+
+/* ▼headerの設定 */
+
+/* -------------------------------------------- */
+
+header {
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+    padding-bottom: 1rem;
+}
+
+
+.nav{
+    display: none;
+}
+
+
+.hamburger {
+    text-align: right;
+    padding-top: 1em;
+    padding-right: 1em;
+}
+
+h1 {
+    text-align: center;
+}
+
+h1 img {
+    width: 15%;
+
+}
+
+/* -------------------------------------------- */
+
+/* ▼mainの設定 */
+
+/* -------------------------------------------- */
+
+main {
+    text-align: center;
+    color: #fff;
+}
+
+section p {
+    padding: 1em;
+    font-size: 1rem;
+}
+
+.ggmap {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+    margin: 0 auto;
+    width: 90%;
+    height: 100%;
+}
+
+.ggmap iframe,
+.ggmap object,
+.ggmap embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+
+}
+
+/* -------------------------------------------- */
+
+/* ▼footerの設定 */
+
+/* -------------------------------------------- */
+footer{
+    text-align: center;
+    color: #fff;
+    font-size: 1rem;
+    padding: 2rem;
+}
+/* -------------------------------------------- */
+
+/* ▼タブレット用デザインとして付け足すデザイン */
+
+/* -------------------------------------------- */
+
+@media all and (min-width: 768px) {}
+
+/* ------------------------------------ */
+
+/* ▼PC用デザインとして付け足すデザイン */
+
+/* ------------------------------------ */
+
+@media all and (min-width: 920px) {
+
+    body {
+        font-size: 1.6rem;
+        letter-spacing: 0.2rem;
+        line-height: 150%;
+    }
+    .hamburger,.main-pic{
+        display: none;
+    }
+
+    header{
+        background-color: #A50009;
+    }
+    
+    .nav{
+        display: block;
+        width: 60%;
+        padding: 2rem 0;
+    }
+    nav a{
+        color: #fff;
+    }
+    nav a:hover,nav a:active{
+        opacity: 0.7;
+    }
+}
