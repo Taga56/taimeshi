@@ -155,20 +155,16 @@ section .w375 {
 .w375 p{
     padding-top: 1rem;
 }
-
+.w200{
+    width: 200px;
+    margin: 0 auto;
+}
 
 dl {
-  width:160px;
-    margin: 1rem auto 0;
+    margin: 1rem 0 0 1.5rem;
 }
 dt {
   float:left;
-}
-dd {
-/*  margin-left:80px;*/
-}
-.w375-center{
-    margin: 0 auto;
 }
 .ggmap {
     position: relative;
@@ -176,7 +172,7 @@ dd {
     padding-top: 30px;
     height: 0;
     overflow: hidden;
-    margin: 0 auto;
+    margin: 3rem auto;
     width: 90%;
     height: 100%;
 }
@@ -203,8 +199,11 @@ footer {
     padding: 2rem;
 }
 
+footer ul{
+    width: 60%;
+}
 footer li {
-    padding: 0 1.4em;
+    padding-left: 1rem;
 }
 
 footer nav li + li {
